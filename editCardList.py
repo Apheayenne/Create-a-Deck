@@ -1,6 +1,5 @@
 import re
 import sqlite3
-import subprocess
 
 def rreplace(s, old, new, occurrence):
     li = s.rsplit(old, occurrence)
